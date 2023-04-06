@@ -149,7 +149,7 @@ test('Test Case 16: Access Career: Employer', async ({ page }) => {
     expect(page.url()).toBe('https://kaanismet.github.io/mywebclass-simulation/resources.html');
 });
 
-test('Test Case 17: Test ', async ({ page }) => {
+test('Test Case 17: Test the Title link ', async ({ page }) => {
     await page.goto('https://kaanismet.github.io/mywebclass-simulation/');
     await page.getByRole('button', { name: 'Agree', exact: true }).click();
     await page.getByRole('button', { name: 'I am an employer' }).click();
